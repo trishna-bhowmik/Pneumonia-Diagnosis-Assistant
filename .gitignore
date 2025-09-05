@@ -1,0 +1,28 @@
+echo "
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Model weights
+*.pth
+*.pt
+
+# Node modules
+frontend/node_modules/
+" > .gitignore
