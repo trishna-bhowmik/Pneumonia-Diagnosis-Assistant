@@ -15,29 +15,6 @@ This project combines a FastAPI backend (PyTorch + Grad-CAM) with a React fronte
 
 🌐 Modern and responsive React UI
 
-🏗️ Project Structure
-project77/
-│
-├── backend/                           # FastAPI backend
-│   ├── app.py                         # Main backend entrypoint
-│   ├── model.py                       # Model loading / prediction utils
-│   ├── gradcam_utils.py               # Grad-CAM visualization helper
-│   ├── requirements.txt               # Backend dependencies
-│   └── saved_models/
-│       └── pneumonia_cnn.pth          # Trained model weights
-│
-├── frontend/                          # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── App.jsx
-│   │   ├── components/
-│   │   │   ├── UploadImage.jsx
-│   │   │   ├── PredictionResult.jsx
-│   │   │   └── HeatmapViewer.jsx
-│   │   └── services/api.js
-│   └── package.json
-│
-└── README.md
 
 ⚙️ Backend Setup (FastAPI + PyTorch)
 1. Navigate to backend folder
