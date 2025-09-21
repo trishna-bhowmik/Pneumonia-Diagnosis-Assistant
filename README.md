@@ -32,11 +32,6 @@ pip install -r requirements.txt
 uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 
 
-Backend will be available at:
-👉 http://localhost:8000
-Static Grad-CAM heatmaps served at:
-👉 http://localhost:8000/static/...
-
 💻 Frontend Setup (React + Vite + Tailwind)
 1. Navigate to frontend folder
 cd frontend
@@ -47,9 +42,6 @@ npm install
 3. Run development server
 npm run dev
 
-
-Frontend will be available at:
-👉 http://localhost:5173
 
 📡 API Endpoint
 
