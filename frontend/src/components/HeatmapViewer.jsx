@@ -9,7 +9,7 @@ export default function HeatmapViewer({ heatmapUrl }) {
         Grad-CAM Heatmap
       </h3>
       <img
-        src={`http://localhost:8000${heatmapUrl}`}
+        src={`https://pneumonia-diagnosis-assistant-2.onrender.com${heatmapUrl}`}
         alt="Heatmap"
         className="rounded-2xl shadow-lg border border-gray-200 mx-auto"
       />
