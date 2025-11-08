@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Change this to your backend host/port
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://pneumonia-diagnosis-assistant-2.onrender.com";
 
 export const predictImage = async (file) => {
   const formData = new FormData();
