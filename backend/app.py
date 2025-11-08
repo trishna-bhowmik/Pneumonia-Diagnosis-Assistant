@@ -15,7 +15,9 @@ app = FastAPI(title="Medical Image Diagnosis API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  
+    allow_origins=[
+        "https://pneumonia-diagnosis-assistant-3.onrender.com",  # your frontend
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
